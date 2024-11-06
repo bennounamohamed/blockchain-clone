@@ -9,7 +9,7 @@
   <body>
     <main class="flex h-screen flex-col">
       <div
-        class="fixed flex h-[72px] w-screen flex-row items-center justify-center bg-slate-900 text-base font-medium text-slate-300"
+        class="fixed z-10 flex h-[72px] w-screen flex-row items-center justify-center bg-slate-900 text-base font-medium text-slate-300"
       >
         <nav class="mx-80 flex w-screen flex-row justify-between">
           <ul class="flex flex-row items-center justify-between">
@@ -77,36 +77,202 @@
               class="w-[26rem] rounded-lg bg-white bg-opacity-10 px-3 py-3 placeholder-white"
             />
             <button
-              class="ml-4 rounded-lg border-2 border-white bg-white px-3 py-1 text-sky-700"
+              class="ml-4 rounded-lg border-2 bg-indigo-50 px-4 py-1 text-base font-semibold text-blue-500 hover:bg-indigo-100"
             >
               Sign Up
             </button>
           </div>
         </div>
-        <div class="relative top-[-5rem] flex flex-row justify-center">
-          <div class="grid grid-cols-4 grid-rows-1 gap-6">
+        <div class="relative top-[-4rem] flex flex-row justify-center">
+          <div class="z-0 grid grid-cols-4 grid-rows-1 gap-6">
             <div
-              class="flex h-36 w-60 cursor-pointer flex-col items-start justify-start rounded-lg bg-white p-4 shadow-lg"
+              class="flex h-36 w-60 cursor-pointer flex-col items-start justify-start rounded-lg bg-white p-4 shadow-xl"
             >
               <div class="flex w-52 flex-row justify-between">
                 <img src="img/btc.svg" alt="" class="w-10" />
                 <div>
-                  <button class="text-black">Buy</button>
-                  <button class="text-black">Trade</button>
+                  <button
+                    class="rounded-lg border-2 border-white bg-violet-100 px-2 py-1 text-sm font-semibold text-indigo-700 hover:bg-violet-200"
+                  >
+                    Buy
+                  </button>
+                  <button
+                    class="mr-2 rounded-lg border-2 border-white bg-green-100 px-2 py-1 text-sm font-semibold text-green-600 hover:bg-green-200"
+                  >
+                    Trade
+                  </button>
                 </div>
               </div>
               <div class="flex flex-row">
-                <p class="text-black">Bitcoin</p>
-                <p class="text-black">Bitcoin</p>
+                <p class="mr-2 mt-2 text-lg font-semibold text-black">
+                  Bitcoin
+                </p>
+                <p class="mt-2 text-lg text-gray-500">BTC</p>
               </div>
               <div class="flex flex-row">
-                <p class="text-black">$68,896.98</p>
-                <p class="text-green-600">+2.42%</p>
+                <p class="mr-2 mt-2 text-lg font-semibold text-black">
+                  $68,896.98
+                </p>
+                <p class="mt-2 text-lg text-green-600">+2.42%</p>
               </div>
             </div>
-            <div class="h-36 w-60 rounded-lg bg-white shadow-lg"></div>
-            <div class="h-36 w-60 rounded-lg bg-white shadow-lg"></div>
-            <div class="h-36 w-60 rounded-lg bg-white shadow-lg"></div>
+            <div
+              class="flex h-36 w-60 cursor-pointer flex-col items-start justify-start rounded-lg bg-white p-4 shadow-xl"
+            >
+              <div class="flex w-52 flex-row justify-between">
+                <img src="img/btc.svg" alt="" class="w-10" />
+                <div>
+                  <button
+                    class="rounded-lg border-2 border-white bg-violet-100 px-2 py-1 text-sm font-semibold text-indigo-700 hover:bg-violet-200"
+                  >
+                    Buy
+                  </button>
+                  <button
+                    class="mr-2 rounded-lg border-2 border-white bg-green-100 px-2 py-1 text-sm font-semibold text-green-600 hover:bg-green-200"
+                  >
+                    Trade
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-row">
+                <p class="mr-2 mt-2 text-lg font-semibold text-black">
+                  Bitcoin
+                </p>
+                <p class="mt-2 text-lg text-gray-500">BTC</p>
+              </div>
+              <div class="flex flex-row">
+                <p class="mr-2 mt-2 text-lg font-semibold text-black">
+                  $68,896.98
+                </p>
+                <p class="mt-2 text-lg text-green-600">+2.42%</p>
+              </div>
+            </div>
+            <div
+              class="flex h-36 w-60 cursor-pointer flex-col items-start justify-start rounded-lg bg-white p-4 shadow-xl"
+            >
+              <div class="flex w-52 flex-row justify-between">
+                <img src="img/btc.svg" alt="" class="w-10" />
+                <div>
+                  <button
+                    class="rounded-lg border-2 border-white bg-violet-100 px-2 py-1 text-sm font-semibold text-indigo-700 hover:bg-violet-200"
+                  >
+                    Buy
+                  </button>
+                  <button
+                    class="mr-2 rounded-lg border-2 border-white bg-green-100 px-2 py-1 text-sm font-semibold text-green-600 hover:bg-green-200"
+                  >
+                    Trade
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-row">
+                <p class="mr-2 mt-2 text-lg font-semibold text-black">
+                  Bitcoin
+                </p>
+                <p class="mt-2 text-lg text-gray-500">BTC</p>
+              </div>
+              <div class="flex flex-row">
+                <p class="mr-2 mt-2 text-lg font-semibold text-black">
+                  $68,896.98
+                </p>
+                <p class="mt-2 text-lg text-green-600">+2.42%</p>
+              </div>
+            </div>
+            <div
+              class="flex h-36 w-60 cursor-pointer flex-col items-start justify-start rounded-lg bg-white p-4 shadow-xl"
+            >
+              <div class="flex w-52 flex-row justify-between">
+                <img src="img/btc.svg" alt="" class="w-10" />
+                <div>
+                  <button
+                    class="rounded-lg border-2 border-white bg-violet-100 px-2 py-1 text-sm font-semibold text-indigo-700 hover:bg-violet-200"
+                  >
+                    Buy
+                  </button>
+                  <button
+                    class="mr-2 rounded-lg border-2 border-white bg-green-100 px-2 py-1 text-sm font-semibold text-green-600 hover:bg-green-200"
+                  >
+                    Trade
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-row">
+                <p class="mr-2 mt-2 text-lg font-semibold text-black">
+                  Bitcoin
+                </p>
+                <p class="mt-2 text-lg text-gray-500">BTC</p>
+              </div>
+              <div class="flex flex-row">
+                <p class="mr-2 mt-2 text-lg font-semibold text-black">
+                  $68,896.98
+                </p>
+                <p class="mt-2 text-lg text-green-600">+2.42%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="info-section"
+        class="relative mt-44 flex h-auto flex-col items-center justify-center"
+      >
+        <div
+          id="first-info"
+          class="flex h-[53rem] w-[67.2%] flex-row justify-between rounded-3xl bg-[#f7f6fe]"
+        >
+          <div class="flex w-2/4 flex-col text-[#7349f2]">
+            <div class="pl-32 pt-20">
+              <div
+                class="mb-8 flex w-32 flex-row items-center justify-between rounded-xl bg-[#efecfe] px-5 py-4"
+              >
+                <svg
+                  width="20"
+                  height="36"
+                  viewBox="0 0 20 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.36"
+                    d="M5 1.25C2.92893 1.25 1.25 2.92893 1.25 5V31C1.25 33.0711 2.92893 34.75 5 34.75H15C17.0711 34.75 18.75 33.0711 18.75 31V5C18.75 2.92893 17.0711 1.25 15 1.25H5Z"
+                    fill="#5322E5"
+                    stroke="#5322E5"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    opacity="0.9"
+                    d="M5 1.25C2.92893 1.25 1.25 2.92893 1.25 5V28C1.25 30.0711 2.92893 31.75 5 31.75H15C17.0711 31.75 18.75 30.0711 18.75 28V5C18.75 2.92893 17.0711 1.25 15 1.25H5Z"
+                    fill="white"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <rect
+                    x="8"
+                    y="4"
+                    width="4"
+                    height="1"
+                    rx="0.5"
+                    fill="currentColor"
+                  ></rect>
+                </svg>
+                <p class="text-lg font-semibold">Wallet</p>
+              </div>
+              <h1 class="w-11/12 text-4xl font-bold">
+                The only crypto wallet you’ll ever need
+              </h1>
+            </div>
+          </div>
+          <div
+            class="flex h-3/4 w-2/4 flex-col items-end justify-center pl-[1.05rem] pt-[30.5rem]"
+          >
+            <img src="img/first-section.png" alt="" class="w-full" />
+          </div>
+          <div class="absolute right-96 top-20">
+            <img src="img/first-section-phone.png" alt="" class="" />
           </div>
         </div>
       </div>
