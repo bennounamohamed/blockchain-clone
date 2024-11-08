@@ -11,6 +11,195 @@
       <div
         class="fixed z-10 flex h-[72px] w-screen flex-row items-center justify-center bg-slate-900 text-base font-medium text-slate-300"
       >
+        <div
+          id="search-container"
+          class="absolute right-[34rem] top-4 z-20 flex h-64 w-[24.2rem] flex-col items-center rounded-2xl bg-white"
+        >
+          <div
+            class="mt-2 flex w-11/12 justify-center rounded-xl bg-slate-100 focus-within:border focus-within:border-blue-400"
+          >
+            <svg
+              height="21"
+              viewBox="0 0 18 19"
+              width="18"
+              class="absolute left-7 top-4 text-black"
+            >
+              <path
+                d="m559.179993 45.9010802c0-3.4003115-2.373108-5.56108-5.564608-5.56108-3.191501 0-5.565397 2.1674824-5.565397 5.56108 0 3.3935975 2.090012 5.568921 5.565397 5.568921s5.564608-2.1686096 5.564608-5.568921zm4.820007 9c0 .7572115-.627404 1.3846154-1.384615 1.3846154-.367789 0-.72476-.1514424-.973558-.4110577l-3.710337-3.6995193c-1.265625.876202-2.780048 1.3413462-4.316105 1.3413462-4.207933 0-7.615385-3.4074519-7.615385-7.6153846s3.407452-7.6153846 7.615385-7.6153846c4.207932 0 7.615384 3.4074519 7.615384 7.6153846 0 1.5360577-.465144 3.0504807-1.341346 4.3161057l3.710337 3.7103366c.248798.2487981.40024.6057692.40024.9735577z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                transform="translate(-546 -38)"
+              ></path>
+            </svg>
+            <input
+              type="text"
+              placeholder="Search blocks, transactions, hash..."
+              class="ml-10 w-[88%] bg-transparent p-2 text-black outline-none"
+            />
+          </div>
+          <div class="ml-5 mt-3 self-start text-black">
+            <p class="mb-3">Blocks</p>
+            <div class="">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                class="absolute top-[6.2rem]"
+              >
+                <path
+                  d="M0 4C0 1.79086 1.79086 0 4 0H16C18.2091 0 20 1.79086 20 4V16C20 18.2091 18.2091 20 16 20H4C1.79086 20 0 18.2091 0 16V4Z"
+                  fill="#F28B24"
+                ></path>
+                <rect
+                  width="16"
+                  height="16"
+                  transform="translate(2 2)"
+                  fill="#F28B24"
+                ></rect>
+                <path
+                  d="M16.0007 11.332H11.334V15.9987H16.0007V11.332Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M8.66667 11.332H4V15.9987H8.66667V11.332Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M16.0007 4H11.334V8.66667H16.0007V4Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M8.66667 4H4V8.66667H8.66667V4Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              <a
+                href=""
+                class="w-11/12 border-t border-gray-300 pl-7 pr-64 pt-1"
+                >BTC block</a
+              >
+            </div>
+            <div class="mt-2">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                class="absolute top-[8.2rem]"
+              >
+                <path
+                  d="M0 4C0 1.79086 1.79086 0 4 0H16C18.2091 0 20 1.79086 20 4V16C20 18.2091 18.2091 20 16 20H4C1.79086 20 0 18.2091 0 16V4Z"
+                  fill="#F28B24"
+                ></path>
+                <rect
+                  width="16"
+                  height="16"
+                  transform="translate(2 2)"
+                  fill="#F28B24"
+                ></rect>
+                <path
+                  d="M16.0007 11.332H11.334V15.9987H16.0007V11.332Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M8.66667 11.332H4V15.9987H8.66667V11.332Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M16.0007 4H11.334V8.66667H16.0007V4Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M8.66667 4H4V8.66667H8.66667V4Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              <a
+                href=""
+                class="w-11/12 border-t border-gray-300 pl-7 pr-64 pt-1"
+                >BTC block</a
+              >
+            </div>
+            <div class="mt-2">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                class="absolute top-[10rem]"
+              >
+                <path
+                  d="M0 4C0 1.79086 1.79086 0 4 0H16C18.2091 0 20 1.79086 20 4V16C20 18.2091 18.2091 20 16 20H4C1.79086 20 0 18.2091 0 16V4Z"
+                  fill="#F28B24"
+                ></path>
+                <rect
+                  width="16"
+                  height="16"
+                  transform="translate(2 2)"
+                  fill="#F28B24"
+                ></rect>
+                <path
+                  d="M16.0007 11.332H11.334V15.9987H16.0007V11.332Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M8.66667 11.332H4V15.9987H8.66667V11.332Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M16.0007 4H11.334V8.66667H16.0007V4Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M8.66667 4H4V8.66667H8.66667V4Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              <a
+                href=""
+                class="w-11/12 border-t border-gray-300 pl-7 pr-64 pt-1"
+                >BTC block</a
+              >
+            </div>
+          </div>
+        </div>
         <nav class="mx-80 flex w-screen flex-row justify-between">
           <ul class="flex flex-row items-center justify-between">
             <li class="mr-10"><img src="./img/logo.png" class="w-56" /></li>
@@ -46,7 +235,7 @@
             </li>
           </ul>
           <ul class="mr-6 flex w-64 items-center justify-around">
-            <li>Search</li>
+            <button id="search-btn">Search</button>
             <button
               class="rounded-lg border-2 border-white px-3 py-2 text-white"
             >
@@ -304,5 +493,7 @@
         </div>
       </div>
     </main>
+
+    <script src="app.js"></script>
   </body>
 </html>
