@@ -13,8 +13,15 @@
       >
         <div
           id="search-container"
-          class="absolute right-[34rem] top-4 z-20 flex h-64 w-[24.2rem] flex-col items-center rounded-2xl bg-white"
+          class="absolute right-[34rem] top-4 z-20 flex hidden h-64 w-[24.2rem] flex-col items-center rounded-2xl bg-white"
         >
+          <div id="close-search">
+            <button
+              class="absolute left-0 top-0 h-6 w-8 animate-pulse rounded-full bg-red-400 text-white"
+            >
+              X
+            </button>
+          </div>
           <div
             class="mt-2 flex w-11/12 justify-center rounded-xl bg-slate-100 focus-within:border focus-within:border-blue-400"
           >
@@ -198,6 +205,14 @@
                 >BTC block</a
               >
             </div>
+          </div>
+          <div
+            class="absolute bottom-0 flex h-9 w-full flex-row items-center justify-around rounded-lg bg-gray-50 text-black"
+          >
+            <a href="" class="rounded-lg bg-gray-100 px-3 py-0">Prices</a>
+            <a href="" class="rounded-lg bg-gray-100 px-3 py-0">Blocks</a>
+            <a href="" class="rounded-lg bg-gray-100 px-3 py-0">Transactions</a>
+            <a href="" class="rounded-lg bg-gray-100 px-3 py-0">Charts</a>
           </div>
         </div>
         <nav class="mx-80 flex w-screen flex-row justify-between">
@@ -455,28 +470,38 @@
               </h1>
               <div class="mt-8 h-auto w-11/12">
                 <div
-                  class="mb-4 h-auto w-full rounded-lg border bg-transparent px-6 py-4 text-lg font-medium"
+                  id="first-description"
+                  class="mb-4 h-auto w-full rounded-lg border bg-[#efecfe] px-6 py-4"
                 >
-                  <p>Buy, sell, and swap with ease</p>
+                  <p class="text-lg font-medium">
+                    Buy, sell, and swap with ease
+                  </p>
+                  <p id="first-paragraph" class="mt-1 text-base font-light">
+                    Use a card or bank account to buy BTC, ETH, stablecoins, and
+                    other assets.
+                  </p>
                 </div>
                 <div
-                  class="mb-4 h-auto w-full rounded-lg border bg-transparent px-6 py-4 text-lg font-medium"
+                  id="second-description"
+                  class="mb-4 h-auto w-full rounded-lg border px-6 py-4"
                 >
-                  <p>Earn rewards on your crypto</p>
+                  <p class="text-lg font-medium">Earn rewards on your crypto</p>
                 </div>
                 <div
-                  class="mb-4 h-auto w-full rounded-lg border bg-transparent px-6 py-4 text-lg font-medium"
+                  id="third-description"
+                  class="mb-4 h-auto w-full rounded-lg border px-6 py-4"
                 >
-                  <p>Self-custody your crypto</p>
+                  <p class="text-lg font-medium">Self-custody your crypto</p>
                 </div>
                 <div
-                  class="mb-4 h-auto w-full rounded-lg border bg-transparent px-6 py-4 text-lg font-medium"
+                  id="forth-description"
+                  class="mb-4 h-auto w-full rounded-lg border px-6 py-4"
                 >
-                  <p>Connect to DeFi</p>
+                  <p class="text-lg font-medium">Connect to DeFi</p>
                 </div>
               </div>
               <button
-                class="ml-2 mt-28 rounded-lg bg-[#7349f2] px-6 py-4 text-lg font-medium text-white"
+                class="ml-2 mt-10 rounded-lg bg-[#7349f2] px-6 py-4 text-lg font-medium text-white"
               >
                 Get started
               </button>
@@ -485,10 +510,15 @@
           <div
             class="flex h-3/4 w-2/4 flex-col items-end justify-center pl-[1.05rem] pt-[30.5rem]"
           >
-            <img src="img/first-section.png" alt="" class="w-full" />
+            <img src="img/first-section.png" alt="" class="" />
           </div>
           <div class="absolute right-96 top-20">
-            <img src="img/first-section-phone.png" alt="" class="" />
+            <img
+              id="first-section-img"
+              src="img/first-section-phone.png"
+              alt=""
+              class=""
+            />
           </div>
         </div>
       </div>
