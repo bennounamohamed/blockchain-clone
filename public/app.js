@@ -73,5 +73,4 @@ forthDescription.addEventListener('click', () => {
   secondDescription.classList.remove('bg-[#efecfe]');
   thirdDescription.classList.remove('bg-[#efecfe]');
   firstImg.src = 'img/first-section4.png';
-  console.log(firstImg.src);
 });
