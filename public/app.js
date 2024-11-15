@@ -16,6 +16,7 @@ const eightDescription = document.getElementById('eight-description');
 const createParagraph = document.createElement('p');
 const firstImg = document.getElementById('first-section-img');
 const secondImg = document.getElementById('second-section-img');
+const secondSection = document.getElementById('second-section-div');
 
 searchBtn.addEventListener('click', () => {
   searchContainer.classList.remove('hidden');
@@ -95,6 +96,7 @@ fifthDescription.addEventListener('click', () => {
   seventhDescription.classList.remove('bg-[#ecf5fe]');
   eightDescription.classList.remove('bg-[#ecf5fe]');
   secondImg.src = 'img/second-section1.png';
+  secondSection.classList = 'absolute left-[32rem] top-[66rem]';
 });
 
 sixthDescription.addEventListener('click', () => {
@@ -108,6 +110,7 @@ sixthDescription.addEventListener('click', () => {
   seventhDescription.classList.remove('bg-[#ecf5fe]');
   eightDescription.classList.remove('bg-[#ecf5fe]');
   secondImg.src = 'img/second-section2.png';
+  secondSection.classList = 'absolute left-[24rem] top-[66rem]';
 });
 
 seventhDescription.addEventListener('click', () => {
@@ -121,6 +124,7 @@ seventhDescription.addEventListener('click', () => {
   sixthDescription.classList.remove('bg-[#ecf5fe]');
   eightDescription.classList.remove('bg-[#ecf5fe]');
   secondImg.src = 'img/second-section3.png';
+  secondSection.classList = 'absolute left-[32rem] top-[66rem]';
 });
 
 eightDescription.addEventListener('click', () => {
@@ -134,4 +138,5 @@ eightDescription.addEventListener('click', () => {
   sixthDescription.classList.remove('bg-[#ecf5fe]');
   seventhDescription.classList.remove('bg-[#ecf5fe]');
   secondImg.src = 'img/second-section4.png';
+  secondSection.classList = 'absolute top-[62rem] left-[2rem] ';
 });
