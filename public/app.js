@@ -103,7 +103,7 @@ sixthDescription.addEventListener('click', () => {
   addDescriptionTwo(
     sixthDescription,
     createParagraph,
-    'Get up to 10% in annual rewards by putting your crypto to work.',
+    'The world’s fastest crypto matching engine, built by and for traders.',
   );
   firstPargraph.classList.add('hidden');
   fifthDescription.classList.remove('bg-[#ecf5fe]');
@@ -117,7 +117,7 @@ seventhDescription.addEventListener('click', () => {
   addDescriptionTwo(
     seventhDescription,
     createParagraph,
-    'Get up to 10% in annual rewards by putting your crypto to work.',
+    'Chat with customer support directly in the Exchange, anytime.',
   );
   firstPargraph.classList.add('hidden');
   fifthDescription.classList.remove('bg-[#ecf5fe]');
@@ -131,7 +131,7 @@ eightDescription.addEventListener('click', () => {
   addDescriptionTwo(
     eightDescription,
     createParagraph,
-    'Get up to 10% in annual rewards by putting your crypto to work.',
+    'Integrated margin trading tools',
   );
   firstPargraph.classList.add('hidden');
   fifthDescription.classList.remove('bg-[#ecf5fe]');
